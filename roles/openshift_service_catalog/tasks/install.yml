@@ -1,7 +1,7 @@
 ---
 # do any asserts here
 - name: Create temp directory for doing work in
-  command: mktemp -d /tmp/openshift-service-catalog-ansible-XXXXXX
+  command: mkdir -d /tmp/openshift-service-catalog-ansible-XXXXXX
   register: mktemp
   changed_when: False
 
